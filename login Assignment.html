@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="login_style.css">
+
+</head>
+<body>
+    <div class="login">
+        <form class="loginform">
+            <h1 >Login Form</h1>
+            <input type="email" id="logemail" placeholder="Email" name="email" >
+            <br>
+            <br>
+            <input type="password" id="logpass" placeholder="Password" name="password">
+            <br>
+            <br>
+            <button id="logsub">SignIN</button>
+            <button id="logreset">Reset</button>
+        </form>
+    </div>
+    <div class="signup">
+        <form class="signupform">
+            <h1 >Sign Up Form</h1>
+            <input type="email" id="sigemail" placeholder="Email" name="email" ><br>
+            <input type="text" id="name" placeholder="Name" name="name" ><br>
+            <input type="password" id="sigpass" placeholder="Password" name="password" ><br>            
+            <input type="password" id="sigpassc" placeholder="PasswordConfirm" name="passwordc">
+            <br>
+
+            <button id="sigsub" onclick="Verifysignin(sigpass, sigpassc)">SignUP</button>
+            <button id="sigreset">Reset</button>
+        </form>
+    </div>
+
+
+    <div class="table">
+
+    </div>
+</body>
+<script>
+    function Verifysignin(a,b) 
+    {
+        var x=document.getElementById(sigpass);
+        var y=document.getElementById(b);
+        window.alert(document.getElementById(sigpass));
+        if(x!=y){
+            window.alert("Password doesn't match");
+        }
+    }
+
+</script>
+</html>

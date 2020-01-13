@@ -1,0 +1,138 @@
+.login{
+    float: left;
+    padding-top: 5vh;
+    margin-left: 20vw;
+    
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3vh;
+}
+
+.loginform{
+    padding-top: 6vh;
+    padding-left: 6vh;
+    padding-right: 20vh;
+    border-radius: 2vh;
+    background-color:rgba(0,0,0,0.7);
+    height: 70vh;
+    width:10vw;
+}
+
+#logemail,#logpass{
+    margin-top: 6vh;
+    height: 6vh;
+    width: 16vw;
+    color: #ffd494;
+    outline: none;
+    background-color: transparent;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:solid whitesmoke 0.25vh;
+}
+.signup{
+    float: left;
+    padding-top: 5vh;
+    margin-left: 20vw;
+}
+.signupform{
+    padding-top: 6vh;
+    padding-left: 6vh;
+    padding-right: 20vh;
+    background-color:rgba(0,0,0,0.7);
+    border-radius: 2vh; 
+    height: 70vh;
+    width: 10vw;
+    
+}
+#sigemail,#sigpass,#sigpassc,#name{
+    margin-top: 2vh;
+    height: 6vh;
+    width: 16vw;
+    color: #ffd494;
+    outline: none;
+    background-color: transparent;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom:solid whitesmoke 0.25vh;
+}
+
+#logsub{
+    margin-top: 8vh;
+    padding: 0.6vh;
+    border: none;
+    border-radius: 0.5vh;
+    background-color: transparent;
+    color: whitesmoke;
+
+    border-color: whitesmoke;
+    border-width: 0.2vh;
+    border-style: solid;
+}
+
+
+#sigsub{
+    margin-top: 6vh;
+    padding:0.6vh;
+    border: none;
+    border-radius: 0.5vh;
+    background-color: transparent;
+    color: whitesmoke;
+
+    border-color: whitesmoke;
+    border-width: 0.2vh;
+    border-style: solid;
+}
+
+#logsub:hover,#sigsub:hover ,#logreset:hover,#sigreset:hover{
+    color:rgb(156, 51, 51);
+    border-color:rgb(156, 51, 51) ;
+}
+
+
+#logemail:hover,#logpass:hover ,#sigemail:hover,#sigpass:hover,#sigpassc:hover,#name:hover{
+    color:rgb(156, 51, 51);
+    border-color:rgb(156, 51, 51) ;
+}
+
+#logreset{
+    margin-top: 6vh;
+    margin-left: 0.7vh;
+    padding: 0.6vh;
+    border: none;
+    border-radius:0.5vh; 
+    background-color: transparent;
+    color: whitesmoke;
+
+    border-color: whitesmoke;
+    border-width: 0.2vh;
+    border-style: solid;
+}
+
+
+#sigreset{
+    margin-top: 6vh;
+    margin-left: 0.5vh;
+    padding: 0.6vh;
+    border: none;
+    border-radius:0.5vh; 
+    background-color: transparent;
+    color: whitesmoke;
+
+    border-color: whitesmoke;
+    border-width: 0.2vh;
+    border-style: solid;
+}
+
+body{
+    background-image: url("loginback.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
